@@ -1,6 +1,4 @@
-<html>
-    <head>
-        <body>
+
 <?php
 
 // echo '<table width="600px" cellpadding="0px" border="1px">';
@@ -24,7 +22,6 @@
 //Task 1
 
 // function getNextChar($char){
-//     $GLOBALS['char']=$char;
 //     $next_char = ++$char; 
 //     if (strlen($next_char) > 1) 
 //     {
@@ -38,11 +35,9 @@
 
 
 // Task 2
-function afterSlachPrint($my_url){
-    return substr($my_url, strrpos($my_url, '/' )+1)."\n";
-}
-echo afterSlachPrint('http://www.example.com/5478331');
+// function afterSlachPrint($my_url){
+//     return substr($my_url, strrpos($my_url, '/' )+1)."\n";
+// }
+// echo afterSlachPrint('http://www.example.com/5478331');
 ?>
-        </body>
-    </head>
-</html>
+
