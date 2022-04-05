@@ -34,7 +34,7 @@
 
 
 
-Task 2
+// Task 2
 function afterSlachPrint($my_url){
     return substr($my_url, strrpos($my_url, '/' )+1)."\n";
 }
