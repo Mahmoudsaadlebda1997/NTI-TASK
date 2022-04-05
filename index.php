@@ -1,3 +1,6 @@
+<html>
+    <head>
+        <body>
 <?php
 
 // echo '<table width="600px" cellpadding="0px" border="1px">';
@@ -40,3 +43,6 @@ function afterSlachPrint($my_url){
 }
 echo afterSlachPrint('http://www.example.com/5478331');
 ?>
+        </body>
+    </head>
+</html>
